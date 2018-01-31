@@ -1,0 +1,98 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #333 url('images/table.jpg') center center no-repeat;
+    background-size: cover;
+    color: #532827;
+}
+
+#container {
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url(images/paper_fibers.png) top left repeat;
+    box-shadow: 0 10px 15px 8-px #000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    padding: 8px;
+    margin: 10px 0;
+}
+
+form input[type=number] {
+    width: 90px;
+}
+
+button,
+button:focus {
+    background: #6c2726;
+    color: #ffffff;
+    border: none;
+    border-bottom: 4px solid #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 7px 40px 7px;
+    width: 100%;
+    
+}
+
+button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+    color: #ffffff;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#totalTip {
+    font-size: 50px;
+    margin-top: 40px;
+    display: block;
+
+}
+
+#totalTip::before {
+    content: "Tip amount";
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup {
+    font-size: 24px;
+    top: -18px;
+
+}
+
+#totalTip small {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
